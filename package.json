@@ -42,7 +42,6 @@
     "clean": "rm -rf ./dist",
     "test": "qunit --require ts-node/register 'test/**/*-test.ts'",
     "lint": "eslint . --ext .ts",
-    "prepare": "yarn build",
     "release": "yarn release-it"
   },
   "publishConfig": {
